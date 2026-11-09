@@ -1,0 +1,206 @@
+{
+  "profiles": [
+    {
+      "id": "current-affairs",
+      "name": "Current Affairs",
+      "category": "News & Commentary",
+      "description": "Tracks recent events with sourcing, fact checking, and polished explainer narratives.",
+      "status": "enabled",
+      "languages": [
+        "English",
+        "French",
+        "Spanish"
+      ],
+      "formats": [
+        "16:9",
+        "9:16"
+      ],
+      "destinations": [
+        "YouTube",
+        "LinkedIn",
+        "X"
+      ],
+      "workflow_steps": [
+        "Research",
+        "Fact check",
+        "Script",
+        "Voiceover",
+        "Render",
+        "Approval"
+      ],
+      "default_duration_minutes": 5
+    },
+    {
+      "id": "breaking-news",
+      "name": "Breaking News",
+      "category": "Realtime Coverage",
+      "description": "Fast-turn content system optimized for high-velocity publication windows.",
+      "status": "enabled",
+      "languages": [
+        "English",
+        "Arabic",
+        "Portuguese"
+      ],
+      "formats": [
+        "16:9"
+      ],
+      "destinations": [
+        "YouTube",
+        "Instagram",
+        "TikTok"
+      ],
+      "workflow_steps": [
+        "Auto-discovery",
+        "Summarize",
+        "Script",
+        "Publish"
+      ],
+      "default_duration_minutes": 3
+    },
+    {
+      "id": "product-explainer",
+      "name": "Product Explainer",
+      "category": "Marketing",
+      "description": "Story-driven product demos and feature walkthroughs.",
+      "status": "draft",
+      "languages": [
+        "English",
+        "Japanese"
+      ],
+      "formats": [
+        "16:9",
+        "1:1"
+      ],
+      "destinations": [
+        "YouTube",
+        "LinkedIn",
+        "Webinars"
+      ],
+      "workflow_steps": [
+        "Brief",
+        "Research",
+        "Storyboard",
+        "Voiceover",
+        "Export"
+      ],
+      "default_duration_minutes": 7
+    }
+  ],
+  "projects": [
+    {
+      "id": "PRJ-1041",
+      "title": "AI chip exports reshape enterprise strategy",
+      "profile": "Current Affairs",
+      "status": "Ready for review",
+      "owner": "Maya Patel",
+      "progress": 82,
+      "duration": "4:20",
+      "language": "English",
+      "created_by": "system",
+      "workflow_steps": [
+        "Research",
+        "Fact check",
+        "Script",
+        "Voiceover",
+        "Render",
+        "Approval"
+      ],
+      "current_stage_index": 4,
+      "notes": "Queued for stakeholder sign-off before publishing."
+    },
+    {
+      "id": "PRJ-1009",
+      "title": "Construction robotics in emerging markets",
+      "profile": "Research Story",
+      "status": "In production",
+      "owner": "Omar Hassan",
+      "progress": 58,
+      "duration": "6:10",
+      "language": "Arabic",
+      "created_by": "system",
+      "workflow_steps": [
+        "Brief",
+        "Research",
+        "Storyboard",
+        "Voiceover",
+        "Export"
+      ],
+      "current_stage_index": 2,
+      "notes": "Regional market data collection is still in progress."
+    }
+  ],
+  "approvals": [
+    {
+      "id": "APR-23",
+      "title": "Global EV battery boom",
+      "stage": "Script review",
+      "reviewer": "Rina Gomez",
+      "urgency": "High"
+    },
+    {
+      "id": "APR-24",
+      "title": "Climate grid resilience plan",
+      "stage": "Voiceover QA",
+      "reviewer": "Jules Martin",
+      "urgency": "Medium"
+    }
+  ],
+  "users": [
+    {
+      "id": "admin-1",
+      "email": "admin@atlasstudio.local",
+      "name": "Admin User",
+      "role": "admin"
+    },
+    {
+      "id": "editor-1",
+      "email": "editor@atlasstudio.local",
+      "name": "Content Editor",
+      "role": "editor"
+    }
+  ],
+  "kpis": [
+    {
+      "label": "Active workspaces",
+      "value": "148",
+      "change": "+18%"
+    },
+    {
+      "label": "Published this week",
+      "value": "46",
+      "change": "+13%"
+    },
+    {
+      "label": "Avg. approval time",
+      "value": "2.4h",
+      "change": "-21%"
+    },
+    {
+      "label": "Automation success",
+      "value": "96.8%",
+      "change": "+3.4%"
+    }
+  ],
+  "jobs": [
+    {
+      "id": "job-101",
+      "project_id": "PRJ-1041",
+      "task": "Research synthesis",
+      "status": "running",
+      "progress": 72,
+      "created_at": "2026-11-09T12:00:00Z",
+      "updated_at": "2026-11-09T12:04:00Z",
+      "result": "Aggregating sources and validating claims"
+    },
+    {
+      "id": "job-102",
+      "project_id": "PRJ-1009",
+      "task": "Voiceover generation",
+      "status": "queued",
+      "progress": 18,
+      "created_at": "2026-11-09T12:08:00Z",
+      "updated_at": "2026-11-09T12:08:00Z",
+      "result": "Awaiting TTS engine availability"
+    }
+  ]
+}

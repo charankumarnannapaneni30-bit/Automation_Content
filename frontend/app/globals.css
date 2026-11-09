@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  background:
+    radial-gradient(circle at top, rgba(110, 231, 249, 0.12), transparent 20%),
+    linear-gradient(180deg, #020817 0%, #0a1420 100%);
+}
+
+.card {
+  @apply rounded-2xl border border-slate-800 bg-slate-900/80 shadow-glow backdrop-blur-sm;
+}
+
+.kpi {
+  @apply card p-5;
+}
+
+.badge {
+  @apply inline-flex items-center rounded-full border px-2.5 py-1 text-[10px] font-medium uppercase tracking-[0.2em];
+}

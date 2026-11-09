@@ -1,0 +1,11 @@
+node_modules/
+.next/
+out/
+frontend/.next/
+frontend/node_modules/
+backend/.venv/
+backend/__pycache__/
+backend/.pytest_cache/
+backend/.mypy_cache/
+.env
+.DS_Store
